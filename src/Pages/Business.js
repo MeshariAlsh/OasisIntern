@@ -31,7 +31,7 @@ export default function Business () {
       company: 'Google',
       role: 'Business Analyst Intern',
       location: 'Dubai, United Arab Emirates',
-      imageUrl: '/Images/google.png',
+      imageUrl: '/Images/Google.png',
       applyLink: 'https://www.karkidi.com/job-details/54352-business-intern-2024-sales-job?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic',
       status: 'Apply',
       colorcode: 'bg-lime-500'
