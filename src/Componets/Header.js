@@ -47,7 +47,7 @@ export default function Header() {
               </div>
               <div className="flex-1 flex items-center justify-between sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                <img src="/images/Logo.png" alt="Logo" className="h-16" />
+                <img src="/Images/Logo.png" alt="Logo" className="h-16" />
                 </div>
                 <div className="hidden pt-2 sm:ml-6 sm:block">
                   <div className="flex space-x-4">

@@ -151,7 +151,7 @@ export default function Business () {
       company: 'Tamara',
       role: 'Instore Operations Internship',
       location: 'Kuwait',
-      imageUrl: '/Images/tamara.png',
+      imageUrl: '/Images/Tamara.png',
       applyLink: 'https://tamara.co/jobs',
       status: 'Closed',
       colorcode: 'bg-red-600'

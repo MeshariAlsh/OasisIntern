@@ -11,7 +11,7 @@ export default function Engineering () {
       company: 'Salla',
       role: 'Product Development Internship',
       location: 'Makkah Al mukarramah, Saudia Arabia',
-      imageUrl: '/Images/salla.jpeg',
+      imageUrl: '/Images/Salla.png',
       applyLink: 'https://apply.workable.com/salla/j/4066711BF0/',
       status: 'Apply',
       colorcode: 'bg-lime-500'
