@@ -31,7 +31,7 @@ export default function Engineering () {
       company: 'Arabic Computer Systems',
       role: 'Software Development Internship',
       location: 'Riyadh, Saudia Arabia',
-      imageUrl: '/Images/ACS.jpeg',
+      imageUrl: '/Images/ACS.png',
       applyLink: 'https://jobs.workable.com/view/p2hS7tq68SnwnZZZjsqZ5U/internship-software-development-in-riyadh-at-arabic-computer-systems',
       status: 'Apply',
       colorcode: 'bg-lime-500'
@@ -41,7 +41,7 @@ export default function Engineering () {
       company: 'Oasis Intern',
       role: 'Software Development Internship',
       location: 'Remote, Saudia Arabia',
-      imageUrl: '/Images/Goat4.jpeg',
+      imageUrl: '/Images/Goat4.png',
       applyLink: '/oasis',
       status: 'Apply',
       colorcode: 'bg-lime-500'
@@ -61,7 +61,7 @@ export default function Engineering () {
       company: 'Elm',
       role: 'Software Engineer COOP',
       location: 'Riyadh, Saudia Arabia',
-      imageUrl: '/Images/Elm.jpeg',
+      imageUrl: '/Images/Elm.png',
       applyLink: 'https://career.elm.sa/elm/job/Riyadh-Coop-Training-Software-Engineering%28JuneJulyAugust-2024-Intake%29-Job/1130979200/',
       status: 'Apply',
       colorcode: 'bg-lime-500'
@@ -71,7 +71,7 @@ export default function Engineering () {
       company: 'Field Core',
       role: 'Field Engineer Internship',
       location: 'Remote, Saudia Arabia',
-      imageUrl: '/Images/FieldCore.jpeg',
+      imageUrl: '/Images/FieldCore.png',
       applyLink: 'https://www.fieldcore.com/careers/jobs/?p=job/ol60tfwE&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic&nl=1',
       status: 'Apply',
       colorcode: 'bg-lime-500'
@@ -82,7 +82,7 @@ export default function Engineering () {
       company: 'Hitchi',
       role: 'Engineer Internship',
       location: 'Riyadh, Saudia Arabia',
-      imageUrl: '/Images/Hitachi.jpeg',
+      imageUrl: '/Images/Hitachi.png',
       applyLink: 'https://sa.joblum.com/job/engineering-intern/146176?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic',
       status: 'Apply',
       colorcode: 'bg-lime-500'
@@ -92,7 +92,7 @@ export default function Engineering () {
       company: 'Baker Hughes',
       role: 'Mechanical, Electrical, Computer or Petroleum Engineering Internship',
       location: 'Dhahran, Saudia Arabia',
-      imageUrl: '/Images/BakerHughes.jpeg',
+      imageUrl: '/Images/BakerHughes.png',
       applyLink: 'https://careers.bakerhughes.com/global/en/job/BAHUGLOBALR104069/University-Internships-Summer-CO-OP-Saudi-Arabia-2024?utm_source=linkedin&utm_medium=phenom-feeds',
       status: 'Apply',
       colorcode: 'bg-lime-500'
@@ -102,7 +102,7 @@ export default function Engineering () {
       company: 'P&G',
       role: 'Process Engineers Internship',
       location: 'Dammam, Saudia Arabia',
-      imageUrl: '/Images/P&G.jpeg',
+      imageUrl: '/Images/P&G.png',
       applyLink: 'https://www.pgcareers.com/global/en/job/R000098659/P-G-Dammam-Internship-Program-2024-Process-Engineer?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic',
       status: 'Apply',
       colorcode: 'bg-lime-500'
@@ -112,7 +112,7 @@ export default function Engineering () {
       company: 'Aramco',
       role: 'All departments Internship',
       location: 'Saudia Arabia',
-      imageUrl: '/Images/Aramco.jpeg',
+      imageUrl: '/Images/Aramco.png',
       applyLink: 'https://www.aramco.com/en/careers/for-saudi-applicants/student-opportunities/university-and-vocational-college-internship-programs/university-internship-program',
       status: 'Closed',
       colorcode: 'bg-red-600'
@@ -122,7 +122,7 @@ export default function Engineering () {
       company: 'Saudia ',
       role: 'All Departments COOP',
       location: 'Saudia Arabia',
-      imageUrl: '/Images/SaudiaAir.jpeg',
+      imageUrl: '/Images/SaudiaAir.png',
       applyLink: 'https://www.saudia.com/help/careers/cooperative-training',
       status: 'Closed',
       colorcode: 'bg-red-600'
@@ -132,7 +132,7 @@ export default function Engineering () {
       company: 'Qatar Airways ',
       role: 'All Departments Internship',
       location: 'Qatar',
-      imageUrl: '/Images/QatarAirways.jpeg',
+      imageUrl: '/Images/QatarAirways.png',
       applyLink: 'https://www.qatarairways.com/en/nationalisation/internship-programme.html',
       status: 'Closed',
       colorcode: 'bg-red-600'
