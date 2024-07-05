@@ -11,7 +11,7 @@ export default function Legal () {
       company: 'White & Case',
       role: 'Law COOP - Intern',
       location: 'Riyadh, Saudia Arabia',
-      imageUrl: '/images/WhiteandCase.jpeg',
+      imageUrl: '/Images/WhiteandCase.jpeg',
       applyLink: 'https://www.themuse.com/jobs/whitecase/coop-intern-2024?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic',
       status: 'Apply',
       colorcode: 'bg-lime-500'
@@ -21,7 +21,7 @@ export default function Legal () {
       company: 'Aramco',
       role: 'All departments Internship',
       location: 'Saudia Arabia',
-      imageUrl: '/images/Aramco.jpeg',
+      imageUrl: '/Images/Aramco.jpeg',
       applyLink: 'https://www.aramco.com/en/careers/for-saudi-applicants/student-opportunities/university-and-vocational-college-internship-programs/university-internship-program',
       status: 'Closed',
       colorcode: 'bg-red-600'
@@ -31,7 +31,7 @@ export default function Legal () {
       company: 'Saudia ',
       role: 'All Departments COOP',
       location: 'Saudia Arabia',
-      imageUrl: '/images/SaudiaAir.jpeg',
+      imageUrl: '/Images/SaudiaAir.jpeg',
       applyLink: 'https://www.saudia.com/help/careers/cooperative-training',
       status: 'Closed',
       colorcode: 'bg-red-600'
@@ -41,7 +41,7 @@ export default function Legal () {
       company: 'Qatar Airways ',
       role: 'All Departments Internship',
       location: 'Qatar',
-      imageUrl: '/images/QatarAirways.jpeg',
+      imageUrl: '/Images/QatarAirways.jpeg',
       applyLink: 'https://www.qatarairways.com/en/nationalisation/internship-programme.html',
       status: 'Closed',
       colorcode: 'bg-red-600'

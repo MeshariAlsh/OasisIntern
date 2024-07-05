@@ -11,7 +11,7 @@ export default function Business () {
       company: 'Jahez',
       role: 'All Departments Internship',
       location: 'Saudia Arabia',
-      imageUrl: '/images/Jahez.png',
+      imageUrl: '/Images/Jahez.png',
       applyLink: 'https://career.jahez.net',
       status: 'Closed',
       colorcode: 'bg-red-600'
@@ -21,7 +21,7 @@ export default function Business () {
       company: 'Nahdi',
       role: 'Accountant Internship',
       location: 'Riyadh, Saudia Arabia',
-      imageUrl: '/images/Nahdi.jpeg',
+      imageUrl: '/Images/Nahdi.jpeg',
       applyLink: 'https://www.drjobpro.com/job/view/2855654?source=jooble',
       status: 'Apply',
       colorcode: 'bg-lime-500'
@@ -31,7 +31,7 @@ export default function Business () {
       company: 'Google',
       role: 'Business Analyst Intern',
       location: 'Dubai, United Arab Emirates',
-      imageUrl: '/images/google.jpeg',
+      imageUrl: '/Images/google.jpeg',
       applyLink: 'https://www.karkidi.com/job-details/54352-business-intern-2024-sales-job?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic',
       status: 'Apply',
       colorcode: 'bg-lime-500'
@@ -41,7 +41,7 @@ export default function Business () {
       company: 'Emirates',
       role: 'All Departments Internship (Nationals only)',
       location: 'Dubai, United Arab Emirates',
-      imageUrl: '/images/Emirates.png',
+      imageUrl: '/Images/Emirates.png',
       applyLink: 'https://www.emiratesgroupcareers.com/search-and-apply/379622',
       status: 'Apply',
       colorcode: 'bg-lime-500'
@@ -51,7 +51,7 @@ export default function Business () {
       company: 'Pepsico',
       role: ' Accountant Internship ',
       location: 'Riyadh, Saudia Arabia',
-      imageUrl: '/images/Pepsico.png',
+      imageUrl: '/Images/Pepsico.png',
       applyLink: 'https://grabjobs.co/saudi-arabia/job/full-time/media-communications/intern-accounting-with-great-benefits-50236629?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic',
       status: 'Apply',
       colorcode: 'bg-lime-500'
@@ -61,7 +61,7 @@ export default function Business () {
       company: 'HungerStation',
       role: 'All Department COOP',
       location: 'Riyadh, Saudia Arabia',
-      imageUrl: '/images/HungerStation.png',
+      imageUrl: '/Images/HungerStation.png',
       applyLink: 'https://apply.workable.com/hungerstation/j/72A4F52BD6/',
       status: 'Apply',
       colorcode: 'bg-lime-500'
@@ -71,7 +71,7 @@ export default function Business () {
       company: 'Nestle',
       role: 'Sales or Marketing Internship',
       location: 'Jeddah, Saudia Arabia',
-      imageUrl: '/images/Nestle.jpeg',
+      imageUrl: '/Images/Nestle.jpeg',
       applyLink: 'https://sa.bebee.com/job/de17efe9d84a82efb927821203dd5f1a?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic',
       status: 'Apply',
       colorcode: 'bg-lime-500'
@@ -81,7 +81,7 @@ export default function Business () {
       company: 'DHL',
       role: 'Sales Analyst Internship',
       location: ' Old Al Ghanim, Qatar',
-      imageUrl: '/images/DHLWW.jpeg',
+      imageUrl: '/Images/DHLWW.jpeg',
       applyLink: 'https://www.mncjobsgulf.com/jobs/internship-sales-analyst-old-al-ghanim-1474179?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic#google_vignette',
       status: 'Apply',
       colorcode: 'bg-lime-500'
@@ -91,7 +91,7 @@ export default function Business () {
       company: 'P&G',
       role: 'Finance and Accounting Internship',
       location: 'Dubai, United Arab Emirates',
-      imageUrl: '/images/P&G.jpeg',
+      imageUrl: '/Images/P&G.jpeg',
       applyLink: 'https://jobsitedirect.co.uk/job/232/finance-and-accounting-internship-dubai?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic',
       status: 'Apply',
       colorcode: 'bg-lime-500'
@@ -101,7 +101,7 @@ export default function Business () {
       company: 'Asterix Communications',
       role: 'Corporate Accounting Internship',
       location: 'Yanbu, Saudia Arabia',
-      imageUrl: '/images/Asterix.jpeg',
+      imageUrl: '/Images/Asterix.jpeg',
       applyLink: 'https://sa.talent.com/view?id=851252937f7a&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic',
       status: 'Apply',
       colorcode: 'bg-lime-500'
@@ -111,7 +111,7 @@ export default function Business () {
       company: 'Alpin limited',
       role: 'Business Development and Marketing Intern',
       location: 'Abu Dhabi, United Arab Emirates',
-      imageUrl: '/images/Alpin.jpeg',
+      imageUrl: '/Images/Alpin.jpeg',
       applyLink: 'https://grabjobs.co/uae/job/full-time/others/business-development-and-marketing-intern-50890782?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic',
       status: 'Apply',
       colorcode: 'bg-lime-500'
@@ -121,7 +121,7 @@ export default function Business () {
       company: 'Zid',
       role: 'Accountant/ Finance Internship',
       location: 'Riyadh, Saudia Arabia',
-      imageUrl: '/images/Zid.jpeg',
+      imageUrl: '/Images/Zid.jpeg',
       applyLink: 'https://www.jisr.net/en/zid/careers/4d41c0d6-b5fc-426b-b2c6-5e1e02bbf50c?host=1',
       status: 'Apply',
       colorcode: 'bg-lime-500'
@@ -131,7 +131,7 @@ export default function Business () {
       company: 'i Talent',
       role: 'Accountant Internship',
       location: 'Al Kober, Saudia Arabia',
-      imageUrl: '/images/Italent.png',
+      imageUrl: '/Images/Italent.png',
       applyLink: 'https://www.bayt.com/ar/saudi-arabia/jobs/accounts-internship-saudi-nationals-only-5120777/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic',
       status: 'Apply',
       colorcode: 'bg-lime-500'
@@ -141,7 +141,7 @@ export default function Business () {
       company: 'Aramco',
       role: 'All departments Internship',
       location: 'Saudia Arabia',
-      imageUrl: '/images/Aramco.jpeg',
+      imageUrl: '/Images/Aramco.jpeg',
       applyLink: 'https://www.aramco.com/en/careers/for-saudi-applicants/student-opportunities/university-and-vocational-college-internship-programs/university-internship-program',
       status: 'Closed',
       colorcode: 'bg-red-600'
@@ -151,7 +151,7 @@ export default function Business () {
       company: 'Tamara',
       role: 'Instore Operations Internship',
       location: 'Kuwait',
-      imageUrl: '/images/tamara.png',
+      imageUrl: '/Images/tamara.png',
       applyLink: 'https://tamara.co/jobs',
       status: 'Closed',
       colorcode: 'bg-red-600'
@@ -161,7 +161,7 @@ export default function Business () {
       company: 'Saudia ',
       role: 'All Departments COOP',
       location: 'Saudia Arabia',
-      imageUrl: '/images/SaudiaAir.jpeg',
+      imageUrl: '/Images/SaudiaAir.jpeg',
       applyLink: 'https://www.saudia.com/help/careers/cooperative-training',
       status: 'Closed',
       colorcode: 'bg-red-600'
@@ -171,7 +171,7 @@ export default function Business () {
       company: 'Qatar Airways ',
       role: 'All Departments Internship',
       location: 'Qatar',
-      imageUrl: '/images/QatarAirways.jpeg',
+      imageUrl: '/Images/QatarAirways.jpeg',
       applyLink: 'https://www.qatarairways.com/en/nationalisation/internship-programme.html',
       status: 'Closed',
       colorcode: 'bg-red-600'
@@ -201,11 +201,7 @@ export default function Business () {
     }
   
     fetchStatus();
-
-    const interval = setInterval(fetchStatus, 86400000);  
-
-    return () => clearInterval(interval);  
-  }, [internships]);
+  }, []);
 
   
   
