@@ -232,7 +232,7 @@ export default function Business () {
     <div>
       <div className="mb-8 mt-11 ml-10 mr-10 grid lg:grid-cols-3 gap-10">
         {filteredInternships.map((item, index) => (
-          <a key={index} href={item.applyLink} className="bg-slate-300 rounded-lg overflow-hidden shadow-md relative transition duration-300 hover:scale-105 cursor-pointer">
+          <a key={index} href={item.applyLink} className="bg-slate-300 rounded-lg overflow-hidden shadow-md relative transition duration-300 hover:scale-105 cursor-pointer" onClick={() => handleLinkClick(item.company)}>
             <img src={item.imageUrl} alt={`${item.company} Internship`} className="w-full h-32 sm:h-48 object-cover"></img>
             <div className='m-4'>
                 <span className='font-bold text-xl'> {item.company} </span>
