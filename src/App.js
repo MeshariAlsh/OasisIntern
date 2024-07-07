@@ -1,5 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ReactGA from "react-ga4";
+import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import { SearchProvider } from './Componets/SearchContext';
 import Header from './Componets/Header';
 import { MainPage } from './Componets/MainPage';
