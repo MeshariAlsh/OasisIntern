@@ -1,5 +1,6 @@
 import React from 'react'
 import { useSearch } from '../Componets/SearchContext'
+import ReactGA from 'react-ga4';
 
 export default function Legal () {
 
@@ -49,8 +50,13 @@ export default function Legal () {
 
   ];
 
-  
-
+  const handleLinkClick = (company) => {
+    ReactGA.event({
+      category: 'Internship',
+      action: 'Click',
+      label: company
+    });
+  };
 
   const filteredInternships = internships.filter(
     item =>

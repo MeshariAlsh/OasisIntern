@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { useSearch } from '../Componets/SearchContext'
 import axios from 'axios';
+import ReactGA from 'react-ga4';
 
 export default function Engineering () {
   const { searchTerm } = useSearch();
@@ -172,6 +173,14 @@ useEffect(() => {
 
   fetchStatus();
 }, []);
+
+const handleLinkClick = (company) => {
+  ReactGA.event({
+    category: 'Internship',
+    action: 'Click',
+    label: company
+  });
+};
 
 const filteredInternships = internships.filter(
   item =>

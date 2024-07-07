@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ReactGA from "react-ga4";
 import { SearchProvider } from './Componets/SearchContext';
 import Header from './Componets/Header';
 import { MainPage } from './Componets/MainPage';
@@ -9,11 +10,25 @@ import Business from './Pages/Business';
 import { Oasis } from './Pages/OasisIntern';
 import '@fortawesome/fontawesome-free/css/all.css';
 
+ReactGA.initialize("G-BR6F17F97H");
+
+const TrackPageView = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: location.pathname, title: document.title });
+  }, [location]);
+
+  return null;
+};
+
+
 function App() {
   return (
     <div className="background-container">
       <Router>
         <SearchProvider>
+        <TrackPageView />
         <Header /> 
         <Routes>
           <Route path="/" element={<MainPage />} />
