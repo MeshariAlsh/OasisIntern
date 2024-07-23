@@ -24,7 +24,7 @@ const Signup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:3000/users', formData);
+      const response = await axios.post('https://userdata-jq6k.onrender.com/users', formData);
       setSuccess('User registered successfully!');
       setError('');
       setFormData({
