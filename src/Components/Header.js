@@ -1,7 +1,7 @@
 import { Fragment, useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { useSearch } from "./SearchContext";
-import { AuthContext } from "./AuthContext";
+import { AuthContext } from './AuthContext';
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 

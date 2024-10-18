@@ -1,9 +1,12 @@
 import React, { useState, useContext } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import { AuthContext } from '../Componets/AuthContext';
+import { AuthContext } from '../Components/AuthContext';  // Corrected import
 
 const Login = () => {
+  // Database endpoint
+  const loginEndpoint = process.env.REACT_APP_LOGIN_ENDPOINT;
+
   const [formData, setFormData] = useState({
     email: '',
     password: ''
@@ -12,7 +15,7 @@ const Login = () => {
   const [error, setError] = useState('');
   const [success, setSuccess] = useState('');
   const navigate = useNavigate();
-  const { login } = useContext(AuthContext);
+  const { login } = useContext(AuthContext);  // Access the login function from AuthContext
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -25,14 +28,14 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('https://userdata-jq6k.onrender.com/login', formData);
+      const response = await axios.post(`${loginEndpoint}/login`, formData);
       setSuccess('Login successful!');
       setError('');
       setFormData({
         email: '',
         password: ''
       });
-      login(response.data.user); // Use the login method from AuthContext
+      login(response.data.user); // Call the login method from AuthContext
       navigate('/');
     } catch (error) {
       setError('Failed to login. Please try again.');

@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { useSearch } from '../Componets/SearchContext';
+import { useSearch } from '../Components/SearchContext';
 import axios from 'axios';
 import ReactGA from 'react-ga4';
+
+const applicationsDataLegal = process.env.REACT_APP_LEGAL_API_ENDPOINT;
+const scrappingAPI = process.env.REACT_APP_SCRAPING_API_ENDPOINT;
 
 export default function Business() {
   const { searchTerm } = useSearch();
@@ -11,7 +14,7 @@ export default function Business() {
   useEffect(() => {
     async function fetchInternships() {
       try {
-        const response = await axios.get('https://interndata-4d9t.onrender.com/api/internshipsLegal');
+        const response = await axios.get(`${applicationsDataLegal}`);
         setInternships(response.data);
       } catch (error) {
         console.error('Error fetching internships:', error);
@@ -24,7 +27,7 @@ export default function Business() {
   useEffect(() => {
     async function fetchStatus() {
       try {
-        const response = await axios.get('https://puppeteer-scraping-api.onrender.com/scrape-all');
+        const response = await axios.get(`${scrappingAPI}`);
         const { results } = response.data;
 
         // Update internships with the fetched status

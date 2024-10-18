@@ -2,10 +2,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ReactGA from "react-ga4";
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import { SearchProvider } from './Componets/SearchContext';
-import { AuthProvider } from './Componets/AuthContext';
-import Header from './Componets/Header';
-import { MainPage } from './Componets/MainPage';
+import { SearchProvider } from './Components/SearchContext';
+import { AuthProvider } from './Components/AuthContext'; 
+import Header from './Components/Header';
+import { MainPage } from './Components/MainPage';
 import { Profile } from './Pages/Profile';
 import Engineering from './Pages/Engineering'; 
 import './App.css';
@@ -16,7 +16,9 @@ import Signup from './Pages/Signup';
 import Login from './Pages/Login';
 import '@fortawesome/fontawesome-free/css/all.css';
 
-ReactGA.initialize("G-BR6F17F97H");
+
+
+ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
 
 const TrackPageView = () => {
   const location = useLocation();
@@ -27,7 +29,6 @@ const TrackPageView = () => {
 
   return null;
 };
-
 
 function App() {
   return (

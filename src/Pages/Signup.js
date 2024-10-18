@@ -3,6 +3,9 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
 const Signup = () => {
+  // Database endpoint
+  const loginEndpoint = process.env.REACT_APP_LOGIN_ENDPOINT;
+
   const [formData, setFormData] = useState({
     username: '',
     email: '',
@@ -24,7 +27,7 @@ const Signup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('https://userdata-jq6k.onrender.com/users', formData);
+      const response = await axios.post(`${loginEndpoint}/users`, formData);
       setSuccess('User registered successfully!');
       setError('');
       setFormData({
