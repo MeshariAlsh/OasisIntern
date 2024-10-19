@@ -20,7 +20,7 @@ Oasis is a platform that connects students with companies looking for talented i
 ## Demo
 Screenshot of Oasis Intern in action:
 
-![Oasis Intern Screenshot](./public/DEMO oasis intern .png)
+![Oasis Intern Screenshot](public/DEMO oasis intern .png)
 
 ##Usage 
 - Signup/Login: Create an account or log in using your credentials.
