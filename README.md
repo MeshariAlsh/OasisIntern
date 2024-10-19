@@ -22,7 +22,7 @@ Screenshot of Oasis Intern in action:
 
 ![Oasis Intern Screenshot](public/OasisIntern-Demo.png)
 
-##Usage 
+## Usage 
 - Signup/Login: Create an account or log in using your credentials.
 - Explore Opportunities: Browse internships and jobs by clicking on categories like Engineering, Business, or Legal.
 - Search: Use the search bar to filter opportunities by company, role, or location.
