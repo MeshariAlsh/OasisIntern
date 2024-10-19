@@ -29,20 +29,19 @@ Screenshot of Oasis Intern in action:
 - Track Applications: View the status of job opportunities and apply through the provided links.
 
 ## Pages Overview
--Main Page (/): The home page where users can browse and search for various opportunities.
--Signup (/signup): Page for new users to create an account.
--Login (/login): Page for existing users to log in.
--Profile (/profile): User profile page (authentication required).
--Business (/business): Displays business-related internships fetched from an API and includes the status of each listing.
--Engineering (/engineering): Engineering opportunities.
--Legal (/legal): Legal field opportunities.
--Oasis Internships (/oasis): Special page with additional opportunities and application instructions in Arabic.
+- Main Page (/): The home page where users can browse and search for various opportunities.
+- Signup (/signup): Page for new users to create an account.
+- Login (/login): Page for existing users to log in.
+- Business (/business): Displays business-related internships fetched from an API and includes the status of each listing.
+- Engineering (/engineering): Engineering opportunities.
+- Legal (/legal): Legal field opportunities.
+- Oasis Internships (/oasis): Special page with additional opportunities and application instructions in Arabic.
 
 ## Acknowledgments
 Special thanks to the libraries and tools that helped in the development:
 
--React
--React Router DOM
+- React
+- React Router DOM
 -Axios
--FontAwesome
--Google Analytics
+- FontAwesome
+- Google Analytics
