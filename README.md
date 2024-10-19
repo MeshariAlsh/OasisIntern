@@ -2,6 +2,11 @@
 
 Oasis is a platform that connects students with companies looking for talented interns. Students can easily search for internships, while companies can post listings to attract skilled students looking for hands-on experience. 
 
+## Hosting and Database
+
+- **Hosting**: The application is hosted on **AWS (Amazon Web Services)**, providing a scalable and reliable environment for the platform.
+- **Database**: The app uses **SQLite** as its database, offering lightweight storage and easy setup for development.
+
 ## Table of Contents
 - [Features](#features)
 - [Demo](#demo)
